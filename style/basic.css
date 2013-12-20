@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  font-family:arial,sans-serif;
+}
+li {
+  padding: 10mm;
+}
+.issue {
+  padding: 10mm;
+  border-style:dashed;
+  border-width:1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

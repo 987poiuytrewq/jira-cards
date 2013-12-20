@@ -1,0 +1,13 @@
+@import url("oblong-post-it.css");
+
+h1 {
+  font-size: 20pt;
+  font-weight: bolder;
+  color: grey;
+  position: relative;
+  display: inline;
+}
+
+h2 {
+  font-size: 30pt;
+}
