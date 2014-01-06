@@ -6,12 +6,15 @@ body {
   font-family:arial,sans-serif;
 }
 li {
-  padding: 10mm;
+  padding: 5mm;
 }
 .issue {
   padding: 10mm;
-  border-style:dashed;
   border-width:1px;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.border {
+  border-style:dashed;
 }

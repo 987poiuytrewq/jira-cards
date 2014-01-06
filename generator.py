@@ -1,60 +1,63 @@
 import getpass
-import argparse
-from jira.client import GreenHopper
+from jira.client import JIRA, GreenHopper
 
-from issues import IssueFinder, IssueFormatter
-import cards
+from issues import BlankFinder, BoardFinder, IssueFinder, IssueFormatter
+import render
 
 class Generator:
-
+    
     def __init__(self, arguments):
-        options = {
-            'server': arguments.server
-        }
-
-        if arguments.username:
-            username = arguments.username
+        issues = self.get_issues(arguments)
+        
+        if arguments.mode == 'blank':
+            formatter = IssueFormatter('format/blank.html')
         else:
-            username = raw_input('Username: ')
-        password = getpass.getpass()
-        auth = (username, password)
-
-        self.jira = GreenHopper(options, basic_auth=auth)
-        self.board_name = arguments.board
-
-        self.format = arguments.format
-        self.layout = arguments.layout
-        self.style = arguments.style
-
-    def generate(self):
-        sprint_finder = IssueFinder(self.jira)
-
-        if self.board_name:
-            board_name = arguments.board
-        else:
-            print('Found boards:')
-            for board in sprint_finder.get_board_names():
-                print('  ' + str(board))
-            board_name = raw_input('Select board: ')
-
-        issues = sprint_finder.get_open_sprint(board_name)
-        formatter = IssueFormatter(self.format)
+            formatter = IssueFormatter(arguments.format)
 
         formatted_issues = []
         for issue in issues:
             formatted_issues.append(formatter.format(issue))
-        cards.render(self.layout, self.style, formatted_issues)
+        render.pdf(arguments.layout, arguments.style, formatted_issues)
 
+    def get_issues(self, arguments):
+        if arguments.mode == 'blank':
+            return BlankFinder().get_issues(3)
+        else:
+            options = {'server': arguments.server}
+            
+            if arguments.mode == 'board':
+                if arguments.noauth:
+                    jira = GreenHopper(options)
+                else:
+                    jira = GreenHopper(options, basic_auth=self.get_auth(arguments))
+                
+                board_finder = BoardFinder(jira)
+                if arguments.board:
+                    board_name = arguments.board
+                else:
+                    print('Found boards:')
+                    for board in board_finder.get_board_names():
+                        print('  ' + str(board))
+                    board_name = raw_input('Select board: ')
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Generate cards for open JIRA sprint')
-    parser.add_argument('server', help='jira server to connect to')
-    parser.add_argument('-u', '--username', help='username to authenticate as', default=None)
-    parser.add_argument('-b', '--board', help='board name', default=None)
-    parser.add_argument('-f', '--format', help='format template file', default='format/basic.html')
-    parser.add_argument('-l', '--layout', help='layout template file', default='layout/basic.html')
-    parser.add_argument('-s', '--style', help='stylesheet file', default='style/square-post-it.css')
+                return board_finder.get_open_sprint(board_name)
+                
+            if arguments.mode == 'issues':
+                if arguments.noauth:
+                    jira = JIRA(options)
+                else:
+                    jira = JIRA(options, basic_auth=self.get_auth(arguments))
+                issue_finder = IssueFinder(jira)
+                return issue_finder.get_issues(arguments.issues)
 
-    arguments = parser.parse_args()
-    generator = Generator(arguments)
-    generator.generate()
+    def get_auth(self, arguments):
+        if arguments.username:
+            username = arguments.username
+        else:
+            username = raw_input('Username: ')
+        if arguments.password:
+            password = arguments.password
+        else:
+            password = getpass.getpass()
+        return (username, password)
+
