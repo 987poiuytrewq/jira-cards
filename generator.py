@@ -1,23 +1,28 @@
 import getpass
 from jira.client import JIRA, GreenHopper
 
-from issues import BlankFinder, BoardFinder, IssueFinder, IssueFormatter
-import render
+from issues import BlankFinder, BoardFinder, IssueFinder
+from cards import CardFormatter, CardRenderer
 
 class Generator:
     
     def __init__(self, arguments):
         issues = self.get_issues(arguments)
-        
+
         if arguments.mode == 'blank':
-            formatter = IssueFormatter('format/blank.html')
+            formatter = CardFormatter('format/blank.html')
         else:
-            formatter = IssueFormatter(arguments.format)
+            if arguments.debug:
+                for issue in issues:
+                    print(str(issue.raw))
+                exit(0)
+            formatter = CardFormatter(arguments.format)
 
         formatted_issues = []
         for issue in issues:
             formatted_issues.append(formatter.format(issue))
-        render.pdf(arguments.layout, arguments.style, formatted_issues)
+        renderer = CardRenderer()
+        renderer.render(arguments.layout, arguments.style, formatted_issues)
 
     def get_issues(self, arguments):
         if arguments.mode == 'blank':

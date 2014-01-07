@@ -1,11 +1,24 @@
 @import url("oblong-post-it.css");
 
 h1 {
-  font-size: 20pt;
+  font-size: 24pt;
   font-weight: bolder;
+}
+
+.header {
+  padding-bottom: 5mm;
+}
+
+.key {
   color: grey;
-  position: relative;
   display: inline;
+  vertical-align: top;
+}
+
+.storypoints {
+  display: inline;
+  text-align: right;
+  float: right;
 }
 
 h2 {

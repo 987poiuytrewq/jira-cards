@@ -1,14 +1,29 @@
 import pdfkit
 
-def render(layout, stylesheet, issues):
-    content = '\n'.join(issues)
+class CardRenderer:
 
-    html = ''
-    with open(layout, 'r') as layout_file:
-        for line in layout_file:
-            html += line.format(content=content, stylesheet=stylesheet)
+    def render(self, layout, stylesheet, issues):
+        content = '\n'.join(issues)
 
-    with open('issues.html', 'w') as output:
-        output.write(html)
+        html = ''
+        with open(layout, 'r') as layout_file:
+            for line in layout_file:
+                html += line.format(content=content, stylesheet=stylesheet)
 
-    pdfkit.from_file('issues.html', 'issues.pdf')
+        with open('issues.html', 'w') as output:
+            output.write(html)
+
+        pdfkit.from_file('issues.html', 'issues.pdf')
+
+class CardFormatter:
+
+    def __init__(self, format_name):
+        self.format_name = format_name
+
+    def format(self, issue):
+        raw = issue.raw
+        formatted = ''
+        with open(self.format_name, 'r') as format_file:
+            for line in format_file:
+                formatted += line.format(**raw)
+        return formatted

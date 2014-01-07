@@ -21,6 +21,7 @@ for subparser in [board_parser, issue_parser]:
     subparser.add_argument('-n', '--noauth', help='authentication not required', action='store_true')
     subparser.add_argument('-u', '--username', help='username to authenticate as', default=None)
     subparser.add_argument('-p', '--password', help='password to authenticate with', default=None)
+    subparser.add_argument('-d', '--debug', help='print available fields', action='store_true')
     
 board_parser.add_argument('-b', '--board', help='name of agile board')
 issue_parser.add_argument('issues', help='list of issue ids', nargs='+')

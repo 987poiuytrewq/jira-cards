@@ -49,16 +49,3 @@ class IssueFinder:
             except:
                 print('Issue ' + issue_id + ' not found')
         return issues
-
-class IssueFormatter:
-
-    def __init__(self, format_name):
-        self.format_name = format_name
-
-    def format(self, issue):
-        raw = issue.raw
-        formatted = ''
-        with open(self.format_name, 'r') as format_file:
-            for line in format_file:
-                formatted += line.format(**raw)
-        return formatted
