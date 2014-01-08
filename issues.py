@@ -1,17 +1,16 @@
-
 class BlankFinder:
-
     def get_issues(self, number):
         issues = []
         for i in range(number):
             issues.append(self.BlankIssue())
         return issues
-        
+
+
     class BlankIssue:
         raw = {}
 
-class BoardFinder:
 
+class BoardFinder:
     def __init__(self, jira):
         self.jira = jira
         self.boards = {}
@@ -35,12 +34,12 @@ class BoardFinder:
             print('No open sprint for board ' + board_name)
             exit(1)
         return self.jira.search_issues('Sprint = ' + str(sprint_id))
-        
-class IssueFinder:
 
+
+class IssueFinder:
     def __init__(self, jira):
         self.jira = jira
-        
+
     def get_issues(self, issue_ids):
         issues = []
         for issue_id in issue_ids:

@@ -1,7 +1,8 @@
+from string import Formatter
 import pdfkit
 
-class CardRenderer:
 
+class CardRenderer:
     def render(self, layout, stylesheet, issues):
         content = '\n'.join(issues)
 
@@ -15,15 +16,51 @@ class CardRenderer:
 
         pdfkit.from_file('issues.html', 'issues.pdf')
 
-class CardFormatter:
 
+class CardFormatter:
     def __init__(self, format_name):
         self.format_name = format_name
 
     def format(self, issue):
-        raw = issue.raw
+        formatter = CardFormatter.MissingFieldFormatter()
+        issue.raw.pop('self', None)
+        flat_issue = self.flatten(issue.raw)
         formatted = ''
+
         with open(self.format_name, 'r') as format_file:
             for line in format_file:
-                formatted += line.format(**raw)
+                formatted_line = formatter.format(line, **flat_issue)
+                formatted += formatted_line
         return formatted
+
+    def flatten(self, dictionary):
+        def items():
+            for key, value in dictionary.items():
+                if isinstance(value, dict):
+                    for subkey, subvalue in self.flatten(value).items():
+                        yield key + "/" + subkey, subvalue
+                else:
+                    yield key, value
+
+        return dict(items())
+
+    class MissingFieldFormatter(Formatter):
+
+        def get_field(self, field_name, args, kwargs):
+            try:
+                return super(CardFormatter.MissingFieldFormatter, self).get_field(field_name, args, kwargs)
+            except:
+                return None, None
+
+        def get_value(self, key, args, kwargs):
+            try:
+                value = super(CardFormatter.MissingFieldFormatter, self).get_value(key, args, kwargs)
+                if value is None or value == 'None':
+                    value = ''
+                return value
+            except:
+                return ''
+
+
+
+
