@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b4df39c-8641-499f-94e9-b3b6757ecc08" name="Default" comment="" />
+    <list default="true" id="5b4df39c-8641-499f-94e9-b3b6757ecc08" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/basic.css" afterPath="$PROJECT_DIR$/style/basic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/format/basic.html" afterPath="$PROJECT_DIR$/format/basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/basic.html" afterPath="$PROJECT_DIR$/layout/basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/format/blank.html" afterPath="$PROJECT_DIR$/format/blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cards.py" afterPath="$PROJECT_DIR$/cards.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator.py" afterPath="$PROJECT_DIR$/generator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jira-cards.py" afterPath="$PROJECT_DIR$/jira-cards.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/format/lastfm.html" afterPath="$PROJECT_DIR$/format/lastfm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="jira-cards.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,10 +37,19 @@
       <file leaf-file-name="cards.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="38" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="1008">
+            <state line="18" column="30" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oblong-post-it.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/oblong-post-it.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="14" selection-start="61" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="154">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,7 +57,18 @@
       <file leaf-file-name="generator.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="21" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="994">
+            <state line="21" column="69" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="issues.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/issues.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
               <folding />
             </state>
           </provider>
@@ -46,16 +77,7 @@
       <file leaf-file-name="jira-cards.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jira-cards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="93" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python2.7/string.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="8" selection-start="5941" selection-end="5941" vertical-scroll-proportion="0.0" vertical-offset="2422" max-vertical-offset="9072">
+            <state line="20" column="45" selection-start="1041" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
               <folding />
             </state>
           </provider>
@@ -64,16 +86,25 @@
       <file leaf-file-name="lastfm.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/format/lastfm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="312" selection-end="312" vertical-scroll-proportion="-5.478261" vertical-offset="0" max-vertical-offset="252">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="basic.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/format/basic.html">
+        <entry file="file://$PROJECT_DIR$/layout/basic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="80" selection-end="80" vertical-scroll-proportion="-2.4347825" vertical-offset="0" max-vertical-offset="168">
+            <state line="3" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style/basic.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="5" selection-start="14" selection-end="29" vertical-scroll-proportion="0.03660131" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -88,33 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basic.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style/basic.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05490196" vertical-offset="0" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oblong-post-it.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/oblong-post-it.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="1" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square-post-it.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/square-post-it.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -122,31 +126,39 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/layout/nopadding.json" />
-        <option value="$PROJECT_DIR$/layout/linear.json" />
-        <option value="$PROJECT_DIR$/layout/linear.html" />
-        <option value="$PROJECT_DIR$/issues.py" />
-        <option value="$PROJECT_DIR$/layout/basic.html" />
-        <option value="$PROJECT_DIR$/layout/lastfm.html" />
-        <option value="$PROJECT_DIR$/style/square-post-it.css" />
         <option value="$PROJECT_DIR$/style/lastfm.css" />
         <option value="$PROJECT_DIR$/style/oblong-post-it.css" />
         <option value="$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/__builtin__.py" />
-        <option value="$PROJECT_DIR$/cards.py" />
-        <option value="$PROJECT_DIR$/format/lastfm.html" />
         <option value="$PROJECT_DIR$/format/basic.html" />
-        <option value="$PROJECT_DIR$/generator.py" />
+        <option value="$PROJECT_DIR$/format/lastfm.html" />
+        <option value="$PROJECT_DIR$/format/blank.html" />
+        <option value="$PROJECT_DIR$/layout/page-break.html" />
+        <option value="$PROJECT_DIR$/layout/basic.html" />
+        <option value="$PROJECT_DIR$/layout/three-per-page.html" />
+        <option value="$PROJECT_DIR$/pisa-test.py" />
+        <option value="$PROJECT_DIR$/layout/pisa.html" />
+        <option value="$PROJECT_DIR$/cards.py" />
         <option value="$PROJECT_DIR$/jira-cards.py" />
+        <option value="$PROJECT_DIR$/issues.py" />
+        <option value="$PROJECT_DIR$/generator.py" />
         <option value="$PROJECT_DIR$/style/basic.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="338" />
-    <option name="y" value="494" />
+    <option name="x" value="796" />
+    <option name="y" value="130" />
     <option name="width" value="1443" />
     <option name="height" value="951" />
   </component>
@@ -169,7 +181,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -195,7 +207,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -227,6 +238,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="-1247972723" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jira-cards" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.3 (/usr/bin/python2.7) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist-packages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,11 +331,29 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="143" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="142" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="144" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="941" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="941" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="144" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="143" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -448,6 +495,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5b4df39c-8641-499f-94e9-b3b6757ecc08" name="Default" comment="" />
@@ -477,8 +541,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="338" y="494" width="1443" height="951" extended-state="0" />
-    <editor active="false" />
+    <frame x="796" y="130" width="1443" height="951" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -486,17 +550,17 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21928571" sideWeight="0.3838384" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21928571" sideWeight="0.614899" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21928571" sideWeight="0.38510102" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21928571" sideWeight="0.614899" order="1" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25188917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25126263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -511,7 +575,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/jira-cards.py</url>
+          <line>12</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="atlassian-ide-plugin-workspace">
     <option name="bambooConfiguration">
@@ -533,96 +605,66 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/issues.py">
+    <entry file="file://$PROJECT_DIR$/style/lastfm.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="210" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/jira/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="8" selection-start="3098" selection-end="3098" vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="6272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/_collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2534" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/exceptions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="397" column="11" selection-start="12251" selection-end="12259" vertical-scroll-proportion="0.0" vertical-offset="5108" max-vertical-offset="10416" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1703" column="8" selection-start="58588" selection-end="58588" vertical-scroll-proportion="0.33333334" vertical-offset="13634" max-vertical-offset="48426">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="8" selection-start="5941" selection-end="5941" vertical-scroll-proportion="0.0" vertical-offset="1720" max-vertical-offset="6370">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="38" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="1008">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/format/lastfm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="312" selection-end="312" vertical-scroll-proportion="-5.478261" vertical-offset="0" max-vertical-offset="252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="21" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="994">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jira-cards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="93" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/format/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="80" selection-end="80" vertical-scroll-proportion="-2.4347825" vertical-offset="0" max-vertical-offset="168">
+        <state line="21" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="448">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/square-post-it.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="115" selection-end="115" vertical-scroll-proportion="-3.652174" vertical-offset="0" max-vertical-offset="168">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/format/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="40" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="112">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pdfkit/pdfkit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="25" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2464" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format/lastfm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="742">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pdfkit/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="4" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/xhtml2pdf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="854" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style/oblong-post-it.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+        <state line="4" column="14" selection-start="61" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="182">
           <folding />
         </state>
       </provider>
@@ -634,9 +676,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jira-cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="1041" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/issues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="69" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style/basic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05490196" vertical-offset="0" max-vertical-offset="765">
+        <state line="2" column="5" selection-start="14" selection-end="29" vertical-scroll-proportion="0.03660131" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>

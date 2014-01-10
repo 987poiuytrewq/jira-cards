@@ -1,21 +1,31 @@
+
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
 * {
   margin:0;
   padding:0;
-  width: 210mm;
 }
+
 body {
   font-family:arial,sans-serif;
 }
-li {
-  padding: 5mm;
-}
+
 .issue {
+  margin-bottom: 10mm;
   padding: 10mm;
-  border-width:1px;
   overflow: hidden;
   text-overflow: ellipsis;
+  page-break-inside: avoid;
+  border-color: LightGray;
+  border-width: 1px;
+  border-style: solid;
 }
 
-.border {
-  border-style:dashed;
+#placeholder {
+  border-color: Black;
+  border-width: medium;
+  border-style: dashed;
 }

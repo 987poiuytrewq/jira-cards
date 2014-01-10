@@ -1,20 +1,22 @@
+import os
 from string import Formatter
-import pdfkit
 
 
 class CardRenderer:
-    def render(self, layout, stylesheet, issues):
+    def __init__(self, layout, stylesheet):
+        self.layout = layout
+        self.stylesheet = os.path.abspath(stylesheet)
+
+    def render(self, issues):
         content = '\n'.join(issues)
 
         html = ''
-        with open(layout, 'r') as layout_file:
+        with open(self.layout, 'r') as layout_file:
             for line in layout_file:
-                html += line.format(content=content, stylesheet=stylesheet)
+                html += line.format(content=content, stylesheet=self.stylesheet)
 
-        with open('issues.html', 'w') as output:
+        with open('cards.html', 'w') as output:
             output.write(html)
-
-        pdfkit.from_file('issues.html', 'issues.pdf')
 
 
 class CardFormatter:
@@ -43,6 +45,7 @@ class CardFormatter:
                     yield key, value
 
         return dict(items())
+
 
     class MissingFieldFormatter(Formatter):
 

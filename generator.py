@@ -1,5 +1,4 @@
 import getpass
-import pprint
 from jira.client import JIRA, GreenHopper
 
 from issues import BlankFinder, BoardFinder, IssueFinder
@@ -15,28 +14,26 @@ class Generator:
         else:
             formatter = CardFormatter(arguments.format)
             if arguments.debug:
-                printer = pprint.PrettyPrinter(indent=4)
                 for issue in issues:
                     flat_issue = formatter.flatten(issue.raw)
-                    printer.pprint(flat_issue)
+
+                    print('\n' + flat_issue['key'] + ':')
+                    for item in flat_issue.items():
+                        print('  ' + str(item[0]) + ': ' + str(item[1]))
 
         formatted_issues = []
         for issue in issues:
             formatted_issues.append(formatter.format(issue))
-        renderer = CardRenderer()
-        renderer.render(arguments.layout, arguments.style, formatted_issues)
+        renderer = CardRenderer(arguments.layout, arguments.style)
+        renderer.render(formatted_issues)
+
 
     def get_issues(self, arguments):
         if arguments.mode == 'blank':
             return BlankFinder().get_issues(arguments.number)
         else:
-            options = {'server': arguments.server}
-
             if arguments.mode == 'board':
-                if arguments.noauth:
-                    jira = GreenHopper(options)
-                else:
-                    jira = GreenHopper(options, basic_auth=self.get_auth(arguments))
+                jira = self.connect(GreenHopper, arguments)
 
                 board_finder = BoardFinder(jira)
                 if arguments.board:
@@ -50,21 +47,29 @@ class Generator:
                 return board_finder.get_open_sprint(board_name)
 
             if arguments.mode == 'issues':
-                if arguments.noauth:
-                    jira = JIRA(options)
-                else:
-                    jira = JIRA(options, basic_auth=self.get_auth(arguments))
+                jira = self.connect(JIRA, arguments)
+
                 issue_finder = IssueFinder(jira)
                 return issue_finder.get_issues(arguments.issues)
 
-    def get_auth(self, arguments):
-        if arguments.username:
-            username = arguments.username
-        else:
+    def connect(self, constructor, arguments):
+        options = {'server': arguments.server}
+
+        try:
+            if arguments.anonymous:
+                return constructor(options)
+            else:
+                auth = self.get_auth(arguments.username, arguments.password)
+                return constructor(options, basic_auth=auth)
+        except Exception as e:
+            print('Could not connect to jira instance at ' + arguments.server)
+            print(str(e))
+            exit(1)
+
+    def get_auth(self, username, password):
+        if not username:
             username = raw_input('Username: ')
-        if arguments.password:
-            password = arguments.password
-        else:
+        if not password:
             password = getpass.getpass()
         return username, password
 
