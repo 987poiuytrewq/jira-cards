@@ -4,13 +4,10 @@
     <list default="true" id="5b4df39c-8641-499f-94e9-b3b6757ecc08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/basic.css" afterPath="$PROJECT_DIR$/style/basic.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/format/basic.html" afterPath="$PROJECT_DIR$/format/basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/basic.html" afterPath="$PROJECT_DIR$/layout/basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/format/blank.html" afterPath="$PROJECT_DIR$/format/blank.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cards.py" afterPath="$PROJECT_DIR$/cards.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator.py" afterPath="$PROJECT_DIR$/generator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jira-cards.py" afterPath="$PROJECT_DIR$/jira-cards.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/lastfm.css" afterPath="$PROJECT_DIR$/style/lastfm.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/format/lastfm.html" afterPath="$PROJECT_DIR$/format/lastfm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jira-cards.iws" />
@@ -37,10 +34,8 @@
       <file leaf-file-name="cards.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state line="52" column="45" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1344">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,13 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generator.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="generator.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="69" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state line="28" column="35" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.4392157" vertical-offset="0" max-vertical-offset="1078">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,16 +61,7 @@
       <file leaf-file-name="issues.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/issues.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jira-cards.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jira-cards.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="1041" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
+            <state line="50" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="784">
               <folding />
             </state>
           </provider>
@@ -86,7 +70,16 @@
       <file leaf-file-name="lastfm.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/format/lastfm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="8" column="6" selection-start="248" selection-end="248" vertical-scroll-proportion="-4.869565" vertical-offset="0" max-vertical-offset="196">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lastfm.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/lastfm.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="1" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
               <folding />
             </state>
           </provider>
@@ -101,19 +94,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basic.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="basic.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/basic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="5" selection-start="14" selection-end="29" vertical-scroll-proportion="0.03660131" vertical-offset="0" max-vertical-offset="765">
+            <state line="22" column="26" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="560">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lastfm.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/lastfm.css">
+      <file leaf-file-name="square-post-it.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/square-post-it.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/format/basic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="23" selection-start="42" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="196">
               <folding />
             </state>
           </provider>
@@ -137,28 +139,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/style/lastfm.css" />
         <option value="$PROJECT_DIR$/style/oblong-post-it.css" />
         <option value="$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/__builtin__.py" />
-        <option value="$PROJECT_DIR$/format/basic.html" />
-        <option value="$PROJECT_DIR$/format/lastfm.html" />
         <option value="$PROJECT_DIR$/format/blank.html" />
         <option value="$PROJECT_DIR$/layout/page-break.html" />
         <option value="$PROJECT_DIR$/layout/basic.html" />
         <option value="$PROJECT_DIR$/layout/three-per-page.html" />
         <option value="$PROJECT_DIR$/pisa-test.py" />
         <option value="$PROJECT_DIR$/layout/pisa.html" />
-        <option value="$PROJECT_DIR$/cards.py" />
         <option value="$PROJECT_DIR$/jira-cards.py" />
-        <option value="$PROJECT_DIR$/issues.py" />
-        <option value="$PROJECT_DIR$/generator.py" />
+        <option value="$PROJECT_DIR$/format/basic.html" />
         <option value="$PROJECT_DIR$/style/basic.css" />
+        <option value="$PROJECT_DIR$/style/lastfm.css" />
+        <option value="$PROJECT_DIR$/cards.py" />
+        <option value="$PROJECT_DIR$/issues.py" />
+        <option value="$PROJECT_DIR$/format/lastfm.html" />
+        <option value="$PROJECT_DIR$/generator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="796" />
-    <option name="y" value="130" />
+    <option name="x" value="286" />
+    <option name="y" value="124" />
     <option name="width" value="1443" />
     <option name="height" value="951" />
   </component>
@@ -541,26 +543,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="796" y="130" width="1443" height="951" extended-state="0" />
+    <frame x="286" y="124" width="1443" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3219697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25126263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21928571" sideWeight="0.38510102" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21928571" sideWeight="0.614899" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21928571" sideWeight="0.6136364" order="1" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25126263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -612,23 +614,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/square-post-it.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/format/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="115" selection-end="115" vertical-scroll-proportion="-3.652174" vertical-offset="0" max-vertical-offset="168">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/format/blank.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="3" selection-start="3" selection-end="40" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="112">
-          <folding />
-        </state>
+        <state line="0" column="3" selection-start="3" selection-end="40" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="112" />
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pdfkit/pdfkit.py">
@@ -636,18 +624,9 @@
         <state line="34" column="25" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2464" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/format/lastfm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pdfkit/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="4" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-          <folding />
-        </state>
+        <state line="26" column="4" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/xhtml2pdf/__init__.py">
@@ -655,9 +634,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="854" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/oblong-post-it.css">
+    <entry file="file://$PROJECT_DIR$/jira-cards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="61" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+        <state line="20" column="45" selection-start="1041" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
           <folding />
         </state>
       </provider>
@@ -669,48 +648,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/lastfm.css">
+    <entry file="file://$PROJECT_DIR$/style/oblong-post-it.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+        <state line="4" column="14" selection-start="61" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cards.py">
+    <entry file="file://$PROJECT_DIR$/format/basic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state line="1" column="23" selection-start="42" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="196">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jira-cards.py">
+    <entry file="file://$PROJECT_DIR$/style/square-post-it.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="1041" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/basic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/lastfm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/issues.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
+        <state line="50" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="45" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format/lastfm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="248" selection-end="248" vertical-scroll-proportion="-4.869565" vertical-offset="0" max-vertical-offset="196">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="69" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/basic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="14" selection-end="29" vertical-scroll-proportion="0.03660131" vertical-offset="0" max-vertical-offset="765">
+        <state line="28" column="35" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.4392157" vertical-offset="0" max-vertical-offset="1078">
           <folding />
         </state>
       </provider>

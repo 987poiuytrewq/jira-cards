@@ -1,8 +1,13 @@
 @import url("oblong-post-it.css");
 
 h1 {
-  font-size: 24pt;
-  font-weight: bolder;
+  font-size: 40pt;
+  font-family:DejaVu Sans,sans-serif;
+}
+
+h2 {
+  font-size: 30pt;
+  font-family:Liberation Sans,sans-serif;
 }
 
 .header {
@@ -10,7 +15,6 @@ h1 {
 }
 
 .key {
-  color: grey;
   display: inline;
   vertical-align: top;
 }
@@ -21,6 +25,3 @@ h1 {
   float: right;
 }
 
-h2 {
-  font-size: 30pt;
-}

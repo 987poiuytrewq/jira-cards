@@ -10,18 +10,21 @@
 }
 
 body {
-  font-family:arial,sans-serif;
+  font-family:DejaVu Sans,sans-serif;
 }
 
 .issue {
   margin-bottom: 10mm;
-  padding: 10mm;
-  overflow: hidden;
-  text-overflow: ellipsis;
   page-break-inside: avoid;
   border-color: LightGray;
   border-width: 1px;
   border-style: solid;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content {
+  padding: 5mm;
 }
 
 #placeholder {

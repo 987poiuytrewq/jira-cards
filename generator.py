@@ -18,7 +18,7 @@ class Generator:
                     flat_issue = formatter.flatten(issue.raw)
 
                     print('\n' + flat_issue['key'] + ':')
-                    for item in flat_issue.items():
+                    for item in sorted(flat_issue.items()):
                         print('  ' + str(item[0]) + ': ' + str(item[1]))
 
         formatted_issues = []
@@ -26,7 +26,7 @@ class Generator:
             formatted_issues.append(formatter.format(issue))
         renderer = CardRenderer(arguments.layout, arguments.style)
         renderer.render(formatted_issues)
-
+        print('Generated cards.html')
 
     def get_issues(self, arguments):
         if arguments.mode == 'blank':

@@ -27,6 +27,7 @@ class CardFormatter:
         formatter = CardFormatter.MissingFieldFormatter()
         issue.raw.pop('self', None)
         flat_issue = self.flatten(issue.raw)
+        flat_issue = self.floats_to_ints(flat_issue)
         formatted = ''
 
         with open(self.format_name, 'r') as format_file:
@@ -35,14 +36,35 @@ class CardFormatter:
                 formatted += formatted_line
         return formatted
 
+    def floats_to_ints(self, flat_issue):
+        for key in flat_issue.keys():
+            value = flat_issue[key]
+            if isinstance(value, float) and value % 1 == 0:
+                flat_issue[key] = int(value)
+        return flat_issue
+
+
     def flatten(self, dictionary):
         def items():
             for key, value in dictionary.items():
+                subdict = None
                 if isinstance(value, dict):
-                    for subkey, subvalue in self.flatten(value).items():
-                        yield key + "/" + subkey, subvalue
+                    subdict = value
+                elif isinstance(value, list):
+                    i = 0
+                    subdict = {}
+                    for list_item in value:
+                        subdict[str(i)] = list_item
+                        i += 1
+                elif hasattr(value, '__dict__'):
+                    subdict = value.__dict__
+
+                if subdict:
+                    for subkey, subvalue in self.flatten(subdict).items():
+                        yield key + '/' + subkey, subvalue
                 else:
                     yield key, value
+
 
         return dict(items())
 
