@@ -1,13 +1,13 @@
 @import url("oblong-post-it.css");
 
 h1 {
-  font-size: 40pt;
+  font-size: 30pt;
   font-family:DejaVu Sans,sans-serif;
 }
 
 h2 {
-  font-size: 30pt;
-  font-family:Liberation Sans,sans-serif;
+  font-size: 26pt;
+  font-family:Droid Sans,sans-serif;
 }
 
 .header {
