@@ -33,7 +33,7 @@ class BoardFinder:
         if sprint_id is None:
             print('No open sprint for board ' + board_name)
             exit(1)
-        return self.jira.search_issues('Sprint = ' + str(sprint_id))
+        return self.jira.search_issues('Sprint = ' + str(sprint_id) + ' AND Sprint not in closedSprints()')
 
 
 class IssueFinder:
