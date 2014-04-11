@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b4df39c-8641-499f-94e9-b3b6757ecc08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/lastfm.css" afterPath="$PROJECT_DIR$/style/lastfm.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/oblong-post-it.css" afterPath="$PROJECT_DIR$/style/oblong-post-it.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cards.py" afterPath="$PROJECT_DIR$/cards.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator.py" afterPath="$PROJECT_DIR$/generator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/issues.py" afterPath="$PROJECT_DIR$/issues.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jira-cards.py" afterPath="$PROJECT_DIR$/jira-cards.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jira-cards.iws" />
@@ -27,19 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cards.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cards.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="45" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.0" vertical-offset="728" max-vertical-offset="1358">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oblong-post-it.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/oblong-post-it.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="12" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="154">
+            <state line="18" column="30" selection-start="572" selection-end="572" vertical-scroll-proportion="0.31111112" vertical-offset="0" max-vertical-offset="1344">
               <folding />
             </state>
           </provider>
@@ -48,7 +41,7 @@
       <file leaf-file-name="generator.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="35" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1134">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1092">
               <folding />
             </state>
           </provider>
@@ -57,52 +50,16 @@
       <file leaf-file-name="issues.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/issues.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="784">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="812">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lastfm.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/format/lastfm.html">
+      <file leaf-file-name="jira-cards.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jira-cards.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="196">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style/basic.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="297" selection-end="297" vertical-scroll-proportion="0.40261438" vertical-offset="0" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lastfm.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/lastfm.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="24" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square-post-it.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/square-post-it.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/format/basic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="23" selection-start="42" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="196">
+            <state line="1" column="17" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -133,21 +90,21 @@
         <option value="$PROJECT_DIR$/layout/three-per-page.html" />
         <option value="$PROJECT_DIR$/pisa-test.py" />
         <option value="$PROJECT_DIR$/layout/pisa.html" />
-        <option value="$PROJECT_DIR$/jira-cards.py" />
         <option value="$PROJECT_DIR$/format/basic.html" />
-        <option value="$PROJECT_DIR$/style/basic.css" />
-        <option value="$PROJECT_DIR$/cards.py" />
-        <option value="$PROJECT_DIR$/issues.py" />
         <option value="$PROJECT_DIR$/format/lastfm.html" />
-        <option value="$PROJECT_DIR$/generator.py" />
         <option value="$PROJECT_DIR$/style/oblong-post-it.css" />
         <option value="$PROJECT_DIR$/style/lastfm.css" />
+        <option value="$PROJECT_DIR$/style/basic.css" />
+        <option value="$PROJECT_DIR$/generator.py" />
+        <option value="$PROJECT_DIR$/issues.py" />
+        <option value="$PROJECT_DIR$/jira-cards.py" />
+        <option value="$PROJECT_DIR$/cards.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="333" />
-    <option name="y" value="153" />
+    <option name="x" value="324" />
+    <option name="y" value="145" />
     <option name="width" value="1443" />
     <option name="height" value="951" />
   </component>
@@ -247,15 +204,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../affiliates/affiliates-api/gen-py/affiliates-api/TAffiliatesApi-remote" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="144" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="941" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="941" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="941" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="144" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="143" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -440,7 +397,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="333" y="153" width="1443" height="951" extended-state="0" />
+    <frame x="324" y="145" width="1443" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -478,7 +435,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/jira-cards.py</url>
-          <line>12</line>
+          <line>13</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="2" />
@@ -519,13 +476,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="854" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jira-cards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="1041" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layout/basic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="182" />
@@ -545,20 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/issues.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="784">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="45" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1344">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../affiliates/affiliates-api/gen-py/affiliates-api/TAffiliatesApi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="496" column="6" selection-start="15359" selection-end="15359" vertical-scroll-proportion="0.3328767" vertical-offset="4125" max-vertical-offset="54208" />
@@ -567,13 +503,6 @@
     <entry file="file://$PROJECT_DIR$/../affiliates/affiliates-api/gen-py/affiliates-api/TAffiliatesApi-remote">
       <provider selected="true" editor-type-id="text-editor">
         <state line="142" column="30" selection-start="4555" selection-end="4555" vertical-scroll-proportion="0.89673203" vertical-offset="1176" max-vertical-offset="3052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="35" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1078">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/oblong-post-it.css">
@@ -599,7 +528,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/basic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="297" selection-end="297" vertical-scroll-proportion="0.40261438" vertical-offset="0" max-vertical-offset="765">
+        <state line="23" column="26" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jira-cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/issues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="812">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1092">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="572" selection-end="572" vertical-scroll-proportion="0.31111112" vertical-offset="0" max-vertical-offset="1344">
           <folding />
         </state>
       </provider>

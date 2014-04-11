@@ -1,6 +1,6 @@
+# -*- coding: utf8 -*-
 import os
 from string import Formatter
-
 
 class CardRenderer:
     def __init__(self, layout, stylesheet):
@@ -8,15 +8,15 @@ class CardRenderer:
         self.stylesheet = os.path.abspath(stylesheet)
 
     def render(self, issues):
-        content = '\n'.join(issues)
+        content = unicode('\n'.join(issues))
 
-        html = ''
+        html = unicode('')
         with open(self.layout, 'r') as layout_file:
             for line in layout_file:
-                html += line.format(content=content, stylesheet=self.stylesheet)
+                html += unicode(line).format(content=content, stylesheet=self.stylesheet)
 
         with open('cards.html', 'w') as output:
-            output.write(html)
+            output.write(html.encode('ascii', 'xmlcharrefreplace'))
 
 
 class CardFormatter:

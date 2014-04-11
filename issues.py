@@ -1,3 +1,5 @@
+# -*- coding: utf8 -*-
+
 class BlankFinder:
     def get_issues(self, number):
         issues = []

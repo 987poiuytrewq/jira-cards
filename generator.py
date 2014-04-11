@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 import getpass
 from jira.client import JIRA, GreenHopper
 
