@@ -31,3 +31,12 @@ to see the help for each mode, run
     ./jira-cards.py MODE -h
     
 when runnin in ```board``` mode you can either specify a board name using the ```-b``` option or don't specify one and you will be given a list of available boards, type the name displayed to select it
+
+Customising
+===========
+
+The script uses html and css to render the cards. 
+
+You can customise the content of each card by creating a new format. Use string replacement tags ```{field_name}``` to insert the fields from jira (to see a list of available fields, use the ```-d``` debug flag.
+
+You can also customise the styling of each card by creating a new css style sheet.
