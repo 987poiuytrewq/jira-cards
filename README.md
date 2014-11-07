@@ -16,4 +16,18 @@ Dependencies
 
 This project requires python 2.x to run, and also the python module python-jira, install through pip:
 
-pip install jira
+    sudo apt-get install python-pip
+    sudo pip install jira
+
+Usage
+=====
+
+run the script with the ```-h``` flag to see the help message
+
+    ./jira-cards.py -h
+
+to see the help for each mode, run
+
+    ./jira-cards.py MODE -h
+    
+when runnin in ```board``` mode you can either specify a board name using the ```-b``` option or don't specify one and you will be given a list of available boards, type the name displayed to select it
